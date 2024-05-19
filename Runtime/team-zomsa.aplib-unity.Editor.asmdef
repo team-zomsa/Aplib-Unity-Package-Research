@@ -1,0 +1,11 @@
+{
+    "name": "team-zomsa.aplib-unity.Editor",
+    "references": [
+        "Aplib.Core"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false
+}
