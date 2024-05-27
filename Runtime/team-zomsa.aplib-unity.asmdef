@@ -1,0 +1,16 @@
+{
+    "name": "team-zomsa.aplib-unity",
+    "rootNamespace": "",
+    "references": [
+        "Aplib.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

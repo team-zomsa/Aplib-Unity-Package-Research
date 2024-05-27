@@ -17,3 +17,16 @@ Short instructions:
 
 Possible errors:
 - If the test scene can not be found, make sure it is added in the build settings.
+
+# Licensing
+
+This project has no license defined yet.
+
+## Used packages
+
+This package uses several packages. For the packages below, we refer you to
+their respective licenses, located in the `plugins` folder:
+
+- Castle.Core
+- Moq
+- System.Diagnostics.EventLog

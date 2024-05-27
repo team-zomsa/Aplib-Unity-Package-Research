@@ -1,7 +1,7 @@
 using Aplib.Core;
 using System.Collections;
 
-namespace Aplib
+namespace Aplib.Integrations.Unity
 {
     public class AplibRunner
     {
