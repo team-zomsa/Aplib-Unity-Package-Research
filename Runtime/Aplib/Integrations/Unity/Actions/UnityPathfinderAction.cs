@@ -32,7 +32,7 @@ namespace Aplib.Integrations.Unity.Actions
             System.Func<TBeliefSet, Vector3> location,
             System.Action<TBeliefSet, Vector3> effect,
             float heightOffset = 0f)
-            : base(metadata, PathfindingAction(objectQuery, location, effect, heightOffset))
+            : base(metadata, PathfindingAction(objectQuery, location, effect, heightOffset: heightOffset))
         { }
 
         /// <inheritdoc cref="UnityPathfinderAction{TBeliefSet}(Metadata,System.Func{TBeliefSet,Rigidbody},System.Func{TBeliefSet,UnityEngine.Vector3},System.Action{TBeliefSet,Vector3},float)"/>
