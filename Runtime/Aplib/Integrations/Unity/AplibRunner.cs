@@ -1,5 +1,6 @@
 using Aplib.Core;
 using System.Collections;
+using Aplib.Core.Agents;
 
 namespace Aplib.Integrations.Unity
 {
