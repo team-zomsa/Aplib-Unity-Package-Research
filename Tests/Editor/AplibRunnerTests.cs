@@ -2,6 +2,7 @@ using Aplib.Core;
 using Moq;
 using NUnit.Framework;
 using System.Collections;
+using Aplib.Core.Agents;
 
 namespace Aplib.Integrations.Unity.Tests
 {
