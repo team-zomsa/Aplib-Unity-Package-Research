@@ -1,6 +1,6 @@
 {
     "name": "com.team-zomsa.aplib-unity",
-    "version": "1.11.0-dev.7",
+    "version": "2.0.0",
     "displayName": "Aplib for Unity",
     "description": "This is a package that enables the use of Aplib in Unity.",
     "documentationUrl": "https://team-zomsa.github.io/aplib.net/",

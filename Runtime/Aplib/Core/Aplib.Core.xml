@@ -765,6 +765,84 @@
             Safely remove the item from the stack.
             </summary>
         </member>
+        <member name="T:Aplib.Core.Combinators">
+            <summary>
+            Convenience class containing static methods for creating goal structures and tactics.
+            </summary>
+        </member>
+        <member name="M:Aplib.Core.Combinators.FirstOf``1(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.FirstOf``1(Aplib.Core.Desire.GoalStructures.IGoalStructure{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure`1.#ctor(Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.Primitive``1(Aplib.Core.IMetadata,Aplib.Core.Desire.Goals.IGoal{``0})">
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.Goals.IGoal{`0})" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.Primitive``1(Aplib.Core.Desire.Goals.IGoal{``0})">
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure`1.#ctor(Aplib.Core.Desire.Goals.IGoal{`0})" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.Repeat``1(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{``0})">
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.RepeatGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0})" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.Repeat``1(Aplib.Core.Desire.GoalStructures.IGoalStructure{``0})">
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.RepeatGoalStructure`1.#ctor(Aplib.Core.Desire.GoalStructures.IGoalStructure{`0})" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.Seq``1(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.SequentialGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.Seq``1(Aplib.Core.Desire.GoalStructures.IGoalStructure{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.SequentialGoalStructure`1.#ctor(Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.AnyOf``1(Aplib.Core.IMetadata,System.Func{``0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.AnyOf``1(System.Func{``0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.AnyOf``1(Aplib.Core.IMetadata,Aplib.Core.Intent.Tactics.ITactic{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Tactics.ITactic{`0}[])" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.AnyOf``1(Aplib.Core.Intent.Tactics.ITactic{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.Intent.Tactics.ITactic{`0}[])" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.FirstOf``1(Aplib.Core.IMetadata,System.Func{``0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.FirstOf``1(System.Func{``0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])" />
+        </member>
+        <member name="M:Aplib.Core.Combinators.FirstOf``1(Aplib.Core.IMetadata,Aplib.Core.Intent.Tactics.ITactic{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Tactics.ITactic{`0}[])"/>
+        </member>
+        <member name="M:Aplib.Core.Combinators.FirstOf``1(Aplib.Core.Intent.Tactics.ITactic{``0}[])">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.Intent.Tactics.ITactic{`0}[])"/>
+        </member>
+        <member name="M:Aplib.Core.Combinators.Primitive``1(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IAction{``0},System.Func{``0,System.Boolean})">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})"/>
+        </member>
+        <member name="M:Aplib.Core.Combinators.Primitive``1(Aplib.Core.Intent.Actions.IAction{``0},System.Func{``0,System.Boolean})">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})"/>
+        </member>
+        <member name="M:Aplib.Core.Combinators.Primitive``1(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IAction{``0})">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IAction{`0})"/>
+        </member>
+        <member name="M:Aplib.Core.Combinators.Primitive``1(Aplib.Core.Intent.Actions.IAction{``0})">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Intent.Actions.IAction{`0})"/>
+        </member>
+        <member name="M:Aplib.Core.Combinators.Primitive``1(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IQueryable{``0},System.Func{``0,System.Boolean})">
+            <inheritdoc
+                cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IQueryable{`0},System.Func{`0,System.Boolean})"/>
+        </member>
+        <member name="M:Aplib.Core.Combinators.Primitive``1(Aplib.Core.Intent.Actions.IQueryable{``0},System.Func{``0,System.Boolean})">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Intent.Actions.IQueryable{`0},System.Func{`0,System.Boolean})"/>
+        </member>
+        <member name="M:Aplib.Core.Combinators.Primitive``1(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IQueryable{``0})">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IQueryable{`0})"/>
+        </member>
+        <member name="M:Aplib.Core.Combinators.Primitive``1(Aplib.Core.Intent.Actions.IQueryable{``0})">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Intent.Actions.IQueryable{`0})"/>
+        </member>
         <member name="T:Aplib.Core.CompletionStatus">
             <summary>
             Represents the state of a completable object.
@@ -786,6 +864,9 @@
             </summary>
         </member>
         <member name="T:Aplib.Core.Desire.DesireSets.DesireSet`1">
+            <inheritdoc cref="T:Aplib.Core.Desire.DesireSets.DesireSet`1"/>
+        </member>
+        <member name="P:Aplib.Core.Desire.DesireSets.DesireSet`1.Metadata">
             <inheritdoc />
         </member>
         <member name="F:Aplib.Core.Desire.DesireSets.DesireSet`1._mainGoal">
@@ -806,12 +887,23 @@
             If there are no goal structures left to be completed, the status of this desire set is set to the main goal status.
             </summary>
         </member>
-        <member name="M:Aplib.Core.Desire.DesireSets.DesireSet`1.#ctor(Aplib.Core.Desire.GoalStructures.IGoalStructure{`0},System.ValueTuple{Aplib.Core.Desire.GoalStructures.IGoalStructure{`0},System.Func{`0,System.Boolean}}[])">
+        <member name="M:Aplib.Core.Desire.DesireSets.DesireSet`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0},System.ValueTuple{Aplib.Core.Desire.GoalStructures.IGoalStructure{`0},System.Func{`0,System.Boolean}}[])">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Desire.DesireSets.DesireSet`1" /> class.
             </summary>
+            <param name="metadata">
+            Metadata about this GoalStructure, used to quickly display the goal in several contexts.
+            </param>
             <param name="mainGoal">The main goal structure that the agent needs to complete.</param>
             <param name="sideGoals">The side goal structures that could be activated during the agent playthrough.</param>
+        </member>
+        <member name="M:Aplib.Core.Desire.DesireSets.DesireSet`1.#ctor(Aplib.Core.Desire.GoalStructures.IGoalStructure{`0},System.ValueTuple{Aplib.Core.Desire.GoalStructures.IGoalStructure{`0},System.Func{`0,System.Boolean}}[])">
+            <inheritdoc>
+                <cref>
+                    DesireSet{TBeliefSet}(IMetadata,IGoalStructure{TBeliefSet},(IGoalStructure{TBeliefSet},
+                    System.Func{TBeliefSet,bool})[])
+                </cref>
+            </inheritdoc>
         </member>
         <member name="M:Aplib.Core.Desire.DesireSets.DesireSet`1.ActivateRelevantGoalStructures(`0)">
             <summary>
@@ -828,6 +920,20 @@
             by popping goal structures from the top of the stack when they are finished.
             </summary>
             <param name="beliefSet">The belief set of the agent.</param>
+        </member>
+        <member name="M:Aplib.Core.Desire.DesireSets.DesireSet`1.op_Implicit(Aplib.Core.Desire.Goals.Goal{`0})~Aplib.Core.Desire.DesireSets.DesireSet{`0}">
+            <summary>
+            Implicitly lifts a goal into a desire set.
+            </summary>
+            <inheritdoc cref="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Desire.Goals.IGoal{``0},Aplib.Core.IMetadata)" path="/param[@name='goal']"/>
+            <returns>The most logically matching desire set, wrapping around <paramref name="goal"/>.</returns>
+        </member>
+        <member name="M:Aplib.Core.Desire.DesireSets.DesireSet`1.op_Implicit(Aplib.Core.Desire.GoalStructures.GoalStructure{`0})~Aplib.Core.Desire.DesireSets.DesireSet{`0}">
+            <summary>
+            Implicitly lifts a goal structure a desire set.
+            </summary>
+            <inheritdoc cref="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Desire.GoalStructures.IGoalStructure{``0},Aplib.Core.IMetadata)" path="/param[@name='goalStructure']"/>
+            <returns>The most logically matching desire set, wrapping around <paramref name="goalStructure"/>.</returns>
         </member>
         <member name="T:Aplib.Core.Desire.DesireSets.IDesireSet`1">
             <summary>
@@ -858,7 +964,7 @@
             </remarks>
             <typeparam name="TBeliefSet">The beliefset of the agent.</typeparam>
         </member>
-        <member name="M:Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])">
+        <member name="M:Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure`1" /> class.
             </summary>
@@ -868,7 +974,7 @@
             <param name="children">The children of the goal structure.</param>
         </member>
         <member name="M:Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure`1.#ctor(Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])">
-            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])"/>
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])"/>
         </member>
         <member name="M:Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure`1.GetCurrentGoal(`0)">
             <inheritdoc />
@@ -890,6 +996,9 @@
             Describes a structure of goals that need to be fulfilled.
             </summary>
         </member>
+        <member name="P:Aplib.Core.Desire.GoalStructures.GoalStructure`1.Metadata">
+            <inheritdoc />
+        </member>
         <member name="F:Aplib.Core.Desire.GoalStructures.GoalStructure`1._children">
             <summary>
             The children of the goal structure.
@@ -898,20 +1007,12 @@
         <member name="P:Aplib.Core.Desire.GoalStructures.GoalStructure`1.Status">
             <inheritdoc />
         </member>
-        <member name="P:Aplib.Core.Desire.GoalStructures.GoalStructure`1.Metadata">
-            <summary>
-            Gets the metadata of the GoalStructure.
-            </summary>
-            <remark>
-            This metadata may be useful for debugging or logging.
-            </remark>
-        </member>
         <member name="F:Aplib.Core.Desire.GoalStructures.GoalStructure`1._currentGoalStructure">
             <summary>
             The goal structure that is currently being fulfilled.
             </summary>
         </member>
-        <member name="M:Aplib.Core.Desire.GoalStructures.GoalStructure`1.#ctor(Aplib.Core.Metadata,System.Collections.Generic.IEnumerable{Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}})">
+        <member name="M:Aplib.Core.Desire.GoalStructures.GoalStructure`1.#ctor(Aplib.Core.IMetadata,System.Collections.Generic.IEnumerable{Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}})">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Desire.GoalStructures.GoalStructure`1" /> class.
             </summary>
@@ -921,7 +1022,7 @@
             <param name="children">The children of the goal structure.</param>
         </member>
         <member name="M:Aplib.Core.Desire.GoalStructures.GoalStructure`1.#ctor(System.Collections.Generic.IEnumerable{Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}})">
-            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.GoalStructure`1.#ctor(Aplib.Core.Metadata,System.Collections.Generic.IEnumerable{Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}})" />
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.GoalStructure`1.#ctor(Aplib.Core.IMetadata,System.Collections.Generic.IEnumerable{Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}})" />
         </member>
         <member name="M:Aplib.Core.Desire.GoalStructures.GoalStructure`1.GetCurrentGoal(`0)">
             <summary>
@@ -935,6 +1036,13 @@
             Updates the state of the goal structure.
             </summary>
             <param name="beliefSet">The belief set of the agent.</param>
+        </member>
+        <member name="M:Aplib.Core.Desire.GoalStructures.GoalStructure`1.op_Implicit(Aplib.Core.Desire.Goals.Goal{`0})~Aplib.Core.Desire.GoalStructures.GoalStructure{`0}">
+            <summary>
+            Implicitly lifts a goal into a goal structure.
+            </summary>
+            <inheritdoc cref="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Desire.Goals.IGoal{``0},Aplib.Core.IMetadata)" path="/param[@name='goal']"/>
+            <returns>The most logically matching goal structure, wrapping around <paramref name="goal"/>.</returns>
         </member>
         <member name="T:Aplib.Core.Desire.GoalStructures.IGoalStructure`1">
             <summary>
@@ -969,7 +1077,7 @@
             </remarks>
             <typeparam name="TBeliefSet">The beliefset of the agent.</typeparam>
         </member>
-        <member name="M:Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Desire.Goals.IGoal{`0})">
+        <member name="M:Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.Goals.IGoal{`0})">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure`1" /> class.
             </summary>
@@ -979,7 +1087,7 @@
             <param name="goal">The goal to fulfill.</param>
         </member>
         <member name="M:Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure`1.#ctor(Aplib.Core.Desire.Goals.IGoal{`0})">
-            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Desire.Goals.IGoal{`0})"/>
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.Goals.IGoal{`0})"/>
         </member>
         <member name="M:Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure`1.GetCurrentGoal(`0)">
             <inheritdoc />
@@ -996,7 +1104,7 @@
             </remarks>
             <typeparam name="TBeliefSet">The beliefset of the agent.</typeparam>
         </member>
-        <member name="M:Aplib.Core.Desire.GoalStructures.RepeatGoalStructure`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0})">
+        <member name="M:Aplib.Core.Desire.GoalStructures.RepeatGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0})">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Desire.GoalStructures.RepeatGoalStructure`1" /> class.
             </summary>
@@ -1006,7 +1114,7 @@
             <param name="goalStructure">The GoalStructure to repeat.</param>
         </member>
         <member name="M:Aplib.Core.Desire.GoalStructures.RepeatGoalStructure`1.#ctor(Aplib.Core.Desire.GoalStructures.IGoalStructure{`0})">
-            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.RepeatGoalStructure`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0})"/>
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.RepeatGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0})"/>
         </member>
         <member name="M:Aplib.Core.Desire.GoalStructures.RepeatGoalStructure`1.GetCurrentGoal(`0)">
             <inheritdoc />
@@ -1029,7 +1137,7 @@
             Gets or sets the enumerator for the children of the goal structure.
             </summary>
         </member>
-        <member name="M:Aplib.Core.Desire.GoalStructures.SequentialGoalStructure`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])">
+        <member name="M:Aplib.Core.Desire.GoalStructures.SequentialGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Desire.GoalStructures.SequentialGoalStructure`1" /> class.
             </summary>
@@ -1039,7 +1147,7 @@
             <param name="children">The children of the goal structure.</param>
         </member>
         <member name="M:Aplib.Core.Desire.GoalStructures.SequentialGoalStructure`1.#ctor(Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])">
-            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.SequentialGoalStructure`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])" />
+            <inheritdoc cref="M:Aplib.Core.Desire.GoalStructures.SequentialGoalStructure`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Desire.GoalStructures.IGoalStructure{`0}[])" />
         </member>
         <member name="M:Aplib.Core.Desire.GoalStructures.SequentialGoalStructure`1.GetCurrentGoal(`0)">
             <inheritdoc />
@@ -1126,12 +1234,7 @@
             <seealso cref="M:Aplib.Core.Desire.Goals.Goal`1.GetStatus(`0)" />
         </member>
         <member name="P:Aplib.Core.Desire.Goals.Goal`1.Metadata">
-            <summary>
-            Gets the metadata of the goal.
-            </summary>
-            <remark>
-            This metadata may be useful for debugging or logging.
-            </remark>
+            <inheritdoc />
         </member>
         <member name="P:Aplib.Core.Desire.Goals.Goal`1.Tactic">
             <summary>
@@ -1143,7 +1246,7 @@
         <member name="P:Aplib.Core.Desire.Goals.Goal`1.Status">
             <inheritdoc />
         </member>
-        <member name="M:Aplib.Core.Desire.Goals.Goal`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Tactics.ITactic{`0},Aplib.Core.Desire.Goals.Goal{`0}.HeuristicFunction,System.Double)">
+        <member name="M:Aplib.Core.Desire.Goals.Goal`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Tactics.ITactic{`0},Aplib.Core.Desire.Goals.Goal{`0}.HeuristicFunction,System.Double)">
             <summary>
             Creates a new goal which works with <see cref="T:Aplib.Core.Desire.Goals.Heuristics" />.
             </summary>
@@ -1159,9 +1262,9 @@
         </member>
         <member name="M:Aplib.Core.Desire.Goals.Goal`1.#ctor(Aplib.Core.Intent.Tactics.ITactic{`0},Aplib.Core.Desire.Goals.Goal{`0}.HeuristicFunction,System.Double)">
             <inheritdoc
-                cref="M:Aplib.Core.Desire.Goals.Goal`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Tactics.ITactic{`0},Aplib.Core.Desire.Goals.Goal{`0}.HeuristicFunction,System.Double)" />
+                cref="M:Aplib.Core.Desire.Goals.Goal`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Tactics.ITactic{`0},Aplib.Core.Desire.Goals.Goal{`0}.HeuristicFunction,System.Double)" />
         </member>
-        <member name="M:Aplib.Core.Desire.Goals.Goal`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Tactics.ITactic{`0},System.Func{`0,System.Boolean},System.Double)">
+        <member name="M:Aplib.Core.Desire.Goals.Goal`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Tactics.ITactic{`0},System.Func{`0,System.Boolean},System.Double)">
             <summary>
             Creates a new goal which works with boolean-based <see cref="T:Aplib.Core.Desire.Goals.Heuristics" />.
             </summary>
@@ -1178,7 +1281,7 @@
             </param>
         </member>
         <member name="M:Aplib.Core.Desire.Goals.Goal`1.#ctor(Aplib.Core.Intent.Tactics.ITactic{`0},System.Func{`0,System.Boolean},System.Double)">
-            <inheritdoc cref="M:Aplib.Core.Desire.Goals.Goal`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Tactics.ITactic{`0},System.Func{`0,System.Boolean},System.Double)" />
+            <inheritdoc cref="M:Aplib.Core.Desire.Goals.Goal`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Tactics.ITactic{`0},System.Func{`0,System.Boolean},System.Double)" />
         </member>
         <member name="M:Aplib.Core.Desire.Goals.Goal`1.DetermineCurrentHeuristics(`0)">
             <summary>
@@ -1251,6 +1354,43 @@
             Gets the completion status of the object.
             </summary>
         </member>
+        <member name="T:Aplib.Core.IDocumented">
+            <summary>
+            Represents an object that contains general information on an instance, such as <see cref="T:Aplib.Core.IMetadata"/>.
+            </summary>
+        </member>
+        <member name="P:Aplib.Core.IDocumented.Metadata">
+            <summary>
+            Gets the metadata of the instance.
+            </summary>
+            <remark>
+            This metadata may be useful for debugging or logging.
+            </remark>
+        </member>
+        <member name="T:Aplib.Core.IMetadata">
+            <summary>
+            A collection of generic metadata for unique instances which should help
+            visualise the instance with human-readable information.
+            </summary>
+            <remark>
+            This metadata may be useful for debugging or logging.
+            </remark>
+        </member>
+        <member name="P:Aplib.Core.IMetadata.Id">
+            <summary>
+            Gets the unique identifier of the instance.
+            </summary>
+        </member>
+        <member name="P:Aplib.Core.IMetadata.Name">
+            <summary>
+            Gets the name used to display the instance.
+            </summary>
+        </member>
+        <member name="P:Aplib.Core.IMetadata.Description">
+            <summary>
+            Gets the description used to describe the instance.
+            </summary>
+        </member>
         <member name="T:Aplib.Core.Intent.Actions.Action`1">
             <summary>
             Describes an action that can be executed and guarded.
@@ -1263,14 +1403,9 @@
             </summary>
         </member>
         <member name="P:Aplib.Core.Intent.Actions.Action`1.Metadata">
-            <summary>
-            Gets the metadata of the action.
-            </summary>
-            <remark>
-            This metadata may be useful for debugging or logging.
-            </remark>
+            <inheritdoc />
         </member>
-        <member name="M:Aplib.Core.Intent.Actions.Action`1.#ctor(Aplib.Core.Metadata,System.Action{`0})">
+        <member name="M:Aplib.Core.Intent.Actions.Action`1.#ctor(Aplib.Core.IMetadata,System.Action{`0})">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Intent.Actions.Action`1" /> class.
             </summary>=
@@ -1280,7 +1415,7 @@
             <param name="effect">The effect of the action.</param>
         </member>
         <member name="M:Aplib.Core.Intent.Actions.Action`1.#ctor(System.Action{`0})">
-            <inheritdoc cref="M:Aplib.Core.Intent.Actions.Action`1.#ctor(Aplib.Core.Metadata,System.Action{`0})" />
+            <inheritdoc cref="M:Aplib.Core.Intent.Actions.Action`1.#ctor(Aplib.Core.IMetadata,System.Action{`0})"/>
         </member>
         <member name="M:Aplib.Core.Intent.Actions.Action`1.Execute(`0)">
             <inheritdoc/>
@@ -1333,7 +1468,7 @@
             Gets or sets the result of the query.
             </summary>
         </member>
-        <member name="M:Aplib.Core.Intent.Actions.QueryAction`2.#ctor(Aplib.Core.Metadata,System.Action{`0,`1},System.Func{`0,`1})">
+        <member name="M:Aplib.Core.Intent.Actions.QueryAction`2.#ctor(Aplib.Core.IMetadata,System.Action{`0,`1},System.Func{`0,`1})">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Intent.Actions.QueryAction`2" /> class.
             </summary>
@@ -1345,7 +1480,7 @@
         </member>
         <member name="M:Aplib.Core.Intent.Actions.QueryAction`2.#ctor(System.Action{`0,`1},System.Func{`0,`1})">
             <inheritdoc
-                cref="M:Aplib.Core.Intent.Actions.QueryAction`2.#ctor(Aplib.Core.Metadata,System.Action{`0,`1},System.Func{`0,`1})" />
+                cref="M:Aplib.Core.Intent.Actions.QueryAction`2.#ctor(Aplib.Core.IMetadata,System.Action{`0,`1},System.Func{`0,`1})" />
         </member>
         <member name="M:Aplib.Core.Intent.Actions.QueryAction`2.Execute(`0)">
             <inheritdoc />
@@ -1367,7 +1502,7 @@
             Gets or sets the sub-tactics of the tactic.
             </summary>
         </member>
-        <member name="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])">
+        <member name="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Intent.Tactics.AnyOfTactic`1"/> class with the specified sub-tactics
             and an optional guard condition.
@@ -1379,13 +1514,13 @@
             <param name="subTactics">The list of subtactics.</param>
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])"/>
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])"/>
         </member>
-        <member name="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Tactics.ITactic{`0}[])">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])" />
+        <member name="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Tactics.ITactic{`0}[])">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])" />
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.Intent.Tactics.ITactic{`0}[])">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])" />
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])" />
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.AnyOfTactic`1.GetAction(`0)">
             <inheritdoc/>
@@ -1395,7 +1530,7 @@
             Represents a tactic that executes the first enabled action from a list of sub-tactics.
             </summary>
         </member>
-        <member name="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])">
+        <member name="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Intent.Tactics.FirstOfTactic`1"/> class with the specified
             sub-tactics and guard condition.
@@ -1406,14 +1541,14 @@
             <param name="guard">The guard condition.</param>
             <param name="subTactics">The list of subtactics.</param>
         </member>
-        <member name="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Tactics.ITactic{`0}[])">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])"/>
+        <member name="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Tactics.ITactic{`0}[])">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])"/>
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])"/>
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])"/>
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.Intent.Tactics.ITactic{`0}[])">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])"/>
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean},Aplib.Core.Intent.Tactics.ITactic{`0}[])"/>
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.FirstOfTactic`1.GetAction(`0)">
             <inheritdoc />
@@ -1455,7 +1590,7 @@
             Gets the action of the primitive tactic.
             </summary>
         </member>
-        <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})">
+        <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Intent.Tactics.PrimitiveTactic`1"/> class with the specified action
             and guard.
@@ -1467,15 +1602,15 @@
             <param name="guard">The guard of the primitive tactic.</param>
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})"/>
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})"/>
         </member>
-        <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Actions.IAction{`0})">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})"/>
+        <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IAction{`0})">
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})"/>
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Intent.Actions.IAction{`0})">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})"/>
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IAction{`0},System.Func{`0,System.Boolean})"/>
         </member>
-        <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Actions.IQueryable{`0},System.Func{`0,System.Boolean})">
+        <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IQueryable{`0},System.Func{`0,System.Boolean})">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Intent.Tactics.PrimitiveTactic`1"/> class with the specified action
             and guard.
@@ -1488,25 +1623,23 @@
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Intent.Actions.IQueryable{`0},System.Func{`0,System.Boolean})">
             <inheritdoc
-                cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Actions.IQueryable{`0},System.Func{`0,System.Boolean})"/>
+                cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IQueryable{`0},System.Func{`0,System.Boolean})"/>
         </member>
-        <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Metadata,Aplib.Core.Intent.Actions.IQueryable{`0})">
+        <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IQueryable{`0})">
             <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Intent.Actions.IQueryable{`0},System.Func{`0,System.Boolean})" />
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Intent.Actions.IQueryable{`0})">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.Intent.Actions.IQueryable{`0},System.Func{`0,System.Boolean})" />
+            <inheritdoc
+                cref="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.#ctor(Aplib.Core.IMetadata,Aplib.Core.Intent.Actions.IQueryable{`0},System.Func{`0,System.Boolean})"/>
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.GetAction(`0)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Aplib.Core.Intent.Tactics.PrimitiveTactic`1.IsActionable(`0)">
             <inheritdoc/>
         </member>
         <member name="T:Aplib.Core.Intent.Tactics.Tactic`1">
             <summary>
             Tactics are the real meat of <see cref="T:Aplib.Core.Desire.Goals.Goal`1"/>s, as they define how the agent can approach the goal in hopes
             of finding a solution which makes the Goal's heuristic function evaluate to being completed. A tactic represents
-            a smart combination of <see cref="T:Aplib.Core.Intent.Actions.Action`1"/>s, which are executed in a Believe Desire Intent Cycle.
+            a smart combination of <see cref="T:Aplib.Core.Intent.Actions.Action`1"/>s, which are executed in a Belief Desire Intent Cycle.
             </summary>
             <seealso cref="T:Aplib.Core.Desire.Goals.Goal`1"/>
             <seealso cref="T:Aplib.Core.Intent.Actions.Action`1"/>
@@ -1518,14 +1651,9 @@
             </summary>
         </member>
         <member name="P:Aplib.Core.Intent.Tactics.Tactic`1.Metadata">
-            <summary>
-            Gets the metadata of the tactic.
-            </summary>
-            <remark>
-            This metadata may be useful for debugging or logging.
-            </remark>
+            <inheritdoc />
         </member>
-        <member name="M:Aplib.Core.Intent.Tactics.Tactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean})">
+        <member name="M:Aplib.Core.Intent.Tactics.Tactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean})">
             <summary>
             Initializes a new instance of the <see cref="T:Aplib.Core.Intent.Tactics.Tactic`1"/> class with a specified guard.
             </summary>
@@ -1535,13 +1663,13 @@
             <param name="guard">The guard of the tactic.</param>
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.Tactic`1.#ctor(System.Func{`0,System.Boolean})">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.Tactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean})" />
+            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.Tactic`1.#ctor(Aplib.Core.IMetadata,System.Func{`0,System.Boolean})" />
         </member>
-        <member name="M:Aplib.Core.Intent.Tactics.Tactic`1.#ctor(Aplib.Core.Metadata)">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.Tactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean})" />
+        <member name="M:Aplib.Core.Intent.Tactics.Tactic`1.#ctor(Aplib.Core.IMetadata)">
+            <inheritdoc />
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.Tactic`1.#ctor">
-            <inheritdoc cref="M:Aplib.Core.Intent.Tactics.Tactic`1.#ctor(Aplib.Core.Metadata,System.Func{`0,System.Boolean})" />
+            <inheritdoc />
         </member>
         <member name="M:Aplib.Core.Intent.Tactics.Tactic`1.GetAction(`0)">
             <inheritdoc />
@@ -1549,36 +1677,96 @@
         <member name="M:Aplib.Core.Intent.Tactics.Tactic`1.IsActionable(`0)">
             <inheritdoc />
         </member>
+        <member name="M:Aplib.Core.Intent.Tactics.Tactic`1.op_Implicit(Aplib.Core.Intent.Actions.Action{`0})~Aplib.Core.Intent.Tactics.Tactic{`0}">
+            <summary>
+            Implicitly lifts an action into a tactic.
+            </summary>
+            <inheritdoc cref="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Intent.Actions.IAction{``0},Aplib.Core.IMetadata)" path="/param[@name='action']"/>
+            <returns>The most logically matching tactic, wrapping around <paramref name="action"/>.</returns>
+        </member>
+        <member name="T:Aplib.Core.LiftingExtensionMethods">
+            <summary>
+            Contains extension methods for lifting BDI cycle components into higher-order components.
+            </summary>
+        </member>
+        <member name="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Intent.Actions.IAction{``0},Aplib.Core.IMetadata)">
+            <summary>
+            Wraps a normal action into a tactic.
+            </summary>
+            <returns> A primitive tactic, whose guard always returns true. </returns>
+            <param name="action">
+            The action which on its own can function as a tactic. Meaning, the tactic consists of just a single action.
+            </param>
+            <param name="metadata">Optional metadata to be assigned to the tactic.</param>
+        </member>
+        <member name="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Intent.Actions.IAction{``0})">
+            <inheritdoc cref="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Intent.Actions.IAction{``0},Aplib.Core.IMetadata)" />
+        </member>
+        <member name="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Intent.Actions.IQueryable{``0},Aplib.Core.IMetadata)">
+            <summary>
+            Wraps a queryable action into a tactic.
+            </summary>
+            <returns> A primitive tactic, whose guard always returns true. </returns>
+            <param name="action">
+            The action which on its own can function as a tactic. Meaning, the tactic consists of just a single action.
+            </param>
+            <param name="metadata">Optional metadata to be assigned to the tactic.</param>
+        </member>
+        <member name="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Intent.Actions.IQueryable{``0})">
+            <inheritdoc cref="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Intent.Actions.IQueryable{``0},Aplib.Core.IMetadata)" />
+        </member>
+        <member name="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Desire.Goals.IGoal{``0},Aplib.Core.IMetadata)">
+            <summary>
+            Wraps a goal into a goal structure.
+            </summary>
+            <returns> A primitive goal structure. </returns>
+            <param name="goal">
+            The goal which on its own can function as a goal structure. Meaning, the goal structure consists of just a
+            single goal.
+            </param>
+            <param name="metadata">Optional metadata to be assigned to the goal structure.</param>
+        </member>
+        <member name="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Desire.Goals.IGoal{``0})">
+            <inheritdoc cref="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Desire.Goals.IGoal{``0},Aplib.Core.IMetadata)" />
+        </member>
+        <member name="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Desire.GoalStructures.IGoalStructure{``0},Aplib.Core.IMetadata)">
+            <summary>
+            Wraps a goal structure into a desire set.
+            </summary>
+            <returns> A desire set. </returns>
+            <param name="goalStructure">
+            The goal structure which on its own can function as a desire set. Meaning, the desire set consists of just
+            a single goal structure.
+            </param>
+            <param name="metadata">Optional metadata to be assigned to the desire set.</param>
+        </member>
+        <member name="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Desire.GoalStructures.IGoalStructure{``0})">
+            <inheritdoc cref="M:Aplib.Core.LiftingExtensionMethods.Lift``1(Aplib.Core.Desire.GoalStructures.IGoalStructure{``0},Aplib.Core.IMetadata)" />
+        </member>
         <member name="T:Aplib.Core.Metadata">
             <summary>
             Data structure to store information about a component which may be useful for debugging or logging.
             </summary>
         </member>
         <member name="P:Aplib.Core.Metadata.Id">
-            <summary>
-            Gets the unique identifier of the component.
-            </summary>
+            <inheritdoc />
         </member>
         <member name="P:Aplib.Core.Metadata.Name">
-            <summary>
-            Gets the name used to display the component during debugging, logging, or general overviews.
-            </summary>
+            <inheritdoc />
         </member>
         <member name="P:Aplib.Core.Metadata.Description">
-            <summary>
-            Gets the description used to describe the component during debugging, logging, or general overviews.
-            </summary>
+            <inheritdoc />
         </member>
         <member name="M:Aplib.Core.Metadata.#ctor(System.String,System.String)">
             <summary>
-            Store information about a component which may be useful for debugging or logging or general overviews.
+            Store information about a BDI cycle component which may be useful for debugging or logging or general overviews.
             </summary>
             <param name="name">The name used to display the component.</param>
             <param name="description">The description used to describe the component.</param>
         </member>
         <member name="M:Aplib.Core.Metadata.#ctor(System.Guid,System.String,System.String)">
             <summary>
-            Store information about a component which may be useful for debugging or logging or general overviews.
+            Store information about a BDI cycle component which may be useful for debugging or logging or general overviews.
             </summary>
             <remarks>This constructor is mainly for testing.</remarks>
             <param name="id">A unique identifier for the component.</param>
