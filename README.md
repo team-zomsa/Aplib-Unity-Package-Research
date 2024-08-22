@@ -4,7 +4,7 @@ Short instructions:
 3. Press on "Package Manager".
 4. Press on the "+" sign on the top left corner of the window.
 5. Press on "Add package from git URL".
-6. Paste the following link: `https://github.com/team-zomsa/Aplib-Unity-Package.git`
+6. Paste the following link: `https://github.com/team-zomsa/Aplib-Unity-Package-Research.git`
 7. Press on "Add" or "Install". Wait for the package to be installed.
 8. After installation, open the Test Runner tab under Window -> General -> Test Runner. You can dock this window within the editor if you like.
 9. Go to PlayMode and press create a new test assembly, if you do not have one yet. If you do, skip this step.
