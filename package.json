@@ -3,9 +3,9 @@
     "version": "2.0.0",
     "displayName": "Aplib for Unity",
     "description": "This is a package that enables the use of Aplib in Unity.",
-    "documentationUrl": "https://team-zomsa.github.io/aplib.net/",
+    "documentationUrl": "https://team-zomsa.github.io/aplib.net-research/",
     "changelogUrl": "https://github.com/team-zomsa/aplib.net/releases",
-    "licensesUrl": "https://github.com/team-zomsa/aplib.net/blob/main/LICENSE",
+    "licensesUrl": "https://github.com/team-zomsa/aplib.net-research/blob/main/LICENSE",
     "keywords": [
         "Aplib",
         "Playtesting",

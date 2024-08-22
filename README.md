@@ -10,7 +10,7 @@ Short instructions:
 9. Go to PlayMode and press create a new test assembly, if you do not have one yet. If you do, skip this step.
 10. Open the inspector on the asmdef file within the Tests folder. Under Assembly Definition References, add the team-zomsa.aplib-unity.
 11. Under Assembly References, add Aplib.Core.dll. Then scroll down and click on Apply.
-12. Go to https://github.com/team-zomsa/aplib.net/wiki for instructions on how to use the library and set up your first test.
+12. Go to https://github.com/team-zomsa/aplib.net-research/wiki for instructions on how to use the library and set up your first test.
 13. After setting up tests, under the Test Runner tab, press "Run All" to run all tests.
 
 Possible errors:
